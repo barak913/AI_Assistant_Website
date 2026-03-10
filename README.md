@@ -6,7 +6,7 @@ The README file offers a step-by-step instructions that can be divided into four
 
 1. Installation and Local Setup
    1. Installing Required Applications
-   2. Local Setup and Environment Variables
+   2. [Local Setup and Environment Variables](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-12-local-setup-and-environment-variables)
 2. Preparing your experimental conditions.
 3. Local Testing and Deployment
    1. Local testing to make sure your conditions look as you expect them to look.
