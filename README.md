@@ -11,6 +11,7 @@ The README file offers a step-by-step instructions that can be divided into four
 3. [Local Testing and Deployment](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-3-local-testing-and-deployment)
    1. [Local testing to make sure your conditions look as you expect them to look.](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-31-local-testing-to-make-sure-your-conditions-look-as-you-expect-them-to-look)
    2. [Deployment to AWS so your experiment is ready to run.](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-32-deployment-to-aws-so-your-experiment-is-ready-to-run)
+   3. [Downloading the submissions](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#download-your-submissions)
 4. [Optional Data Cleaning.](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-4-optional-data-cleaning)
 
 # <font color = 'A8057A'>_Step 1: Installation and Local Setup_</font>
