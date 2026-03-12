@@ -254,9 +254,9 @@ Then click the **Elements** tab, select an element on the page, and you’ll see
 
 - It is now time to test the platform locally and make sure it appears as expected. Even after running the code locally (as described below), you can continue making changes, save them, and the local version will update automatically, allowing you to view your changes in real time..
 
-- Make sure your `backend/.env` is in `.gitignore` so your environment variables are not uploaded to your repository in github.
-
-- Open **two terminals** (one for the backend, one for the frontend), make sure to use **git bash** as your terminals (you can change the terminal using the arrow next to the plus after you open the terminal).
+- Open **two terminals** (one for the backend, one for the frontend):
+  - To open a terminal, you can click on View, New Terminal.
+  - Make sure to use **git bash** as your terminals (you can change the terminal using the arrow next to the plus after you open the terminal).
 
 ### Terminal 1 (Backend)
 
@@ -279,7 +279,7 @@ The app should open in your browser (usually at http://localhost:3000). To acces
 To stop the local code from running, press `Ctrl+C`.
 
 > `npm install` is needed the first time you set up the project (or any time `package.json` changes).  
-> After that, you can usually run only `cd XXX` depending on the terminal, and `npm start`.
+> After that, you can run only `cd XXX` depending on the terminal, and `npm start`.
 
 # <code>_Step 3.2: Deployment to AWS so your experiment is ready to run._</code>
 
@@ -346,7 +346,12 @@ Throughout the steps, please note that you choose your console's region (you can
 1. To download your submissions, you can access your S3 bucket and download each file.txt alone.
 2. To bulk download your submissions, follow the next steps:
 
-   **Create an IAM user for CLI** 2. AWS Console → IAM 3. Left menu → Users → Create user 4. Username: cli-downloader (or anything) 5. Permissions: choose Attach policies directly, create policy, JSON, and paste the content of `s3_policy_download.json` → create policy. Choose your policy and press next, then create user. 6. Click on your IAM new user name you just created, on security credentials, and create access key. Please select **Command Line Interface CLI**. Copy both the **access key** and **secret access** key and save them in a private place.
+   **Create an IAM user for CLI**
+   1. AWS Console → IAM
+   2. Left menu → Users → Create user
+   3. Username: cli-downloader (or anything)
+   4. Permissions: choose Attach policies directly, create policy, JSON, and paste the content of `s3_policy_download.json` → create policy. Choose your policy and press next, then create user.
+   5. Click on your IAM new user name you just created, on security credentials, and create access key. Please select **Command Line Interface CLI**. Copy both the **access key** and **secret access** key and save them in a private place.
 
 3. **Install AWS CLI** using the following [**link**](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
