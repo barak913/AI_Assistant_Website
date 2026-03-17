@@ -15,9 +15,9 @@ The README file offers a step-by-step instructions that are divided into four ma
    1. [Choose your experimental conditions according to your research goals](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-21-choose-your-experimental-conditions-according-to-your-research-goals)
    2. [Details regarding each experimental condition](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-22-details-regarding-each-experimental-condition-)
    3. [Editing your experimental conditions](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-23-editing-your-experimental-conditions)
-3. [Running and Deploying the Platform]()
-   1. [Local testing](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-31-local-testing-to-make-sure-your-conditions-look-as-you-expect-them-to-look)
-   2. [Deploying the web application]()
+3. [Running and Deploying the Platform](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-3-running-and-deploying-the-platform)
+   1. [Local testing](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-31-local-testing)
+   2. [Deploying the web application](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-32-deploying-the-web-application)
    3. [Downloading the submissions](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#download-your-submissions)
 4. [Data Cleaning](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-4-data-cleaning)
 
@@ -170,13 +170,13 @@ After downloading all the required applications, having your own copy of the cod
 
 First, you need to define your goal, and follow the instructions below to find the experimental conditions most suitable for your goal. The platform allows you to choose between some or all of the five experimental conditions and to update them. Here, we provide a table which includes examples of experimental conditions that can be used to test different research questions.
 
-| Condition                    | Research Purpose                                                                                                                                                                                                                                         |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [No AI]()                    | This condition includes only a text editor. It allows examining your dependent variable (DV) without having access to a conversational AI, and can serve as a control condition to all others.                                                           |
-| [Always Visible AI]()        | This condition includes a text editor alongside a conversational AI window that remains visible throughout the task. It allows examining your DV when conversational AI is continuously available.                                                       |
-| [Toggleable AI]()            | This condition includes a text editor alongside a conversational AI window that participants can close and reopen. It allows examining your DV when participants have control over the visibility of the conversational AI window.                       |
-| [Participant-Initiated AI]() | This condition includes a text editor alongside a conversational AI window that opens only after participants press a button. It allows examining your DV when participants initiate the conversational AI window rather than being proactively offered. |
-| [Chat Only]()                | This condition includes only the conversational AI window. It allows examining your DV when participants produce their writing only by interacting with the conversational AI, without an option to independently write in a text editor.                |
+| Condition                | Research Purpose                                                                                                                                                                                                                                         |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No AI                    | This condition includes only a text editor. It allows examining your dependent variable (DV) without having access to a conversational AI, and can serve as a control condition to all others.                                                           |
+| Always Visible AI        | This condition includes a text editor alongside a conversational AI window that remains visible throughout the task. It allows examining your DV when conversational AI is continuously available.                                                       |
+| Toggleable AI            | This condition includes a text editor alongside a conversational AI window that participants can close and reopen. It allows examining your DV when participants have control over the visibility of the conversational AI window.                       |
+| Participant-Initiated AI | This condition includes a text editor alongside a conversational AI window that opens only after participants press a button. It allows examining your DV when participants initiate the conversational AI window rather than being proactively offered. |
+| Chat Only                | This condition includes only the conversational AI window. It allows examining your DV when participants produce their writing only by interacting with the conversational AI, without an option to independently write in a text editor.                |
 
 # <code>_Step 2.2: Details regarding each experimental condition_ </code>
 
