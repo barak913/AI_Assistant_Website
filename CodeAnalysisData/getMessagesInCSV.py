@@ -40,14 +40,14 @@ def logs_to_message_csvs(input_dir: str, output_dir: str) -> None:
         rows = []
         for m in messages:
             # Each message should be a dictionary like:
-            # { "timestamp": 12345, "sender": "user"|"chatbot", "text": "..." }
+            # { "timestamp": 12345, "sender": "user"|"conversational AI", "text": "..." }
             if not isinstance(m, dict):
                 continue
 
             rows.append(
                 {
                     "timestamp": m.get("timestamp", ""),       # time in ms since page load
-                    "sender": m.get("sender", ""),   # "user" or "chatbot"
+                    "sender": m.get("sender", ""),   # "user" or "conversational AI"
                     "text": m.get("text", ""),       # message text
                 }
             )

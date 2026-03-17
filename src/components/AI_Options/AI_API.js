@@ -178,7 +178,11 @@ const AI_API = ({
       // Add chatbot reply to the UI
       setMessages((prev) => [
         ...prev,
-        { timestamp, text: toText(chatbotResponseText), sender: "chatbot" },
+        {
+          timestamp,
+          text: toText(chatbotResponseText),
+          sender: "conversational AI",
+        },
       ]);
     } catch (error) {
       // Log errors for debugging
@@ -189,7 +193,11 @@ const AI_API = ({
       // Show a friendly error message in the chat
       setMessages((prev) => [
         ...prev,
-        { timestamp, text: "Sorry, an error occurred.", sender: "chatbot" },
+        {
+          timestamp,
+          text: "Sorry, an error occurred.",
+          sender: "conversational AI",
+        },
       ]);
     }
   };

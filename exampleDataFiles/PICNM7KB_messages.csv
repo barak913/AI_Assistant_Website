@@ -1,10 +1,10 @@
 timestamp,sender,text
-324,chatbot,"Hello, this is a present message that you can edit in your code in AIStillPage.js (theInitialMsg)."
-324,chatbot,"This is the second message, you can edit, add more, or delete me."
+324,conversational AI,"Hello, this is a present message that you can edit in your code in AIStillPage.js (theInitialMsg)."
+324,conversational AI,"This is the second message, you can edit, add more, or delete me."
 21397,user,hello AI!
-21397,chatbot,Hello! How can I assist you today?
+21397,conversational AI,Hello! How can I assist you today?
 33033,user,can you give me 2 ideas on what to write?
-33033,chatbot,"Of course! Here are two ideas you might consider:
+33033,conversational AI,"Of course! Here are two ideas you might consider:
 
 1. **A Personal Reflection Essay:**
    Write about a significant experience in your life that taught you an important lesson. Reflect on how it shaped who you are today, the challenges you faced, and how you overcame them. Consider the skills or qualities you developed through this experience and how they influence your actions and choices now.
