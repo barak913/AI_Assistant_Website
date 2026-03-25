@@ -96,6 +96,8 @@ After you download github, to save this code and get it ready to edit, follow th
    git config --global user.email "YOUR_GIT_EMAIL@EMAIL.COM"
    ```
 
+   To make sure that your changes are saved, git shows you the number of files updated.
+
 # Download Node JS
 
 First, make sure Node.js is downloaded (you can install the windows installer). This will allow you to locally test your code and make sure it looks as you expect it to look.
