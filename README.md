@@ -19,6 +19,7 @@ The README file offers a step-by-step instructions that are divided into four ma
    1. [Local testing](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-31-local-testing)
    2. [Deploying the web application](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-32-deploying-the-web-application)
    3. [Downloading the submissions](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#download-your-submissions)
+   4. [Getting to know your data](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#getting-to-know-your-data)
 4. [Data Cleaning](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-4-data-cleaning)
 
 # <code>_Step 1: Installation and Local Setup_</code>
@@ -379,6 +380,21 @@ After deploying the platform, time to download the data so you can view the resp
    aws s3 sync s3://YOUR_BUCKET_NAME "PATH/TO/Local/Folder"
    ```
 
+# <code>_Step 3.4: Getting to Know your data_</code>
+
+In this section, we provide a table summarising the parameters the data includes at the moment. Note you can edit these parameters, add, or delete some of them according to your liking.
+
+| Parameter                   | What is stores                                                                     | Note                                                                                                                                                                                       |
+| --------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ID                          | Submission code                                                                    | Prefix and Suffix are adjustable to separate conditions                                                                                                                                    |
+| Chat-Events                 | Time-stamped UI events (ms since page load) for opening/closing the LLM assistant. | Event types include 'chat_open' (first open), 'chat_expand' (subsequent opens), and 'chat_collapse' (close). Example: {"t_ms": 1300, "type": "chat_expand"}.                               |
+| Button-Pressed              | Time-stamp (ms since page load) when the LLM assistant is opened.                  |
+| LLMProvider                 | Type of LLM.                                                                       | ChatGPT, Gemini, or Claude                                                                                                                                                                 |
+| Num-Of-Submit-Clicks        | Number of submission attempts.                                                     | Includes the successful submission.                                                                                                                                                        |
+| Time-Stamp-Of-Submit-Clicks | Time-stamps (ms since page load) for each submission attempt.                      |                                                                                                                                                                                            |
+| messages                    | Time-stamped (ms since page load) messages between users and the LLM assistant.    | Sender has two options: chatbot and user, depending on the sender of the message, including present messages. Example: {t_ms: "450", "text": "message content", "sender": "LLMAssistant"}. |
+| Editor                      | Time-stamped texts produced by participants (ms since page load)                   | The last snapshot contains the final submitted text. Snapshots update after each insertion or deletion. Example: {t_ms: "8709", "text": <p>I am writing</p>}.                              |
+
 # <code>_Step 4: Data Cleaning._</code>
 
 The following code is written in python, in case you do not have python installed, please install it from [the official Python page](https://www.python.org/downloads/).
@@ -387,5 +403,10 @@ We provide in the `CodeAnalysisData` folder:
 
 - **_getPlainTexts.py_**: A code that receives the .txt folder path, and extracts the last version of the text (as a plain text) for usage. Please read the comments in the code, as you can also merge the texts with your data according to the codes/texts' names.
 - **_getMessageInCSV.py_**: A code that receives the .txt folder path, and extracts the messages between the LLM Assistant and participants (as a csv file) for usage. The csv file includes a timestamp column, a sender column, and a message content column.
+- **_writingPatterns.py_**: This script analyzes time-stamped snapshots of the writing process and generates words added per minute, pause duration, and burst size.
+- **_consultationPatterns.py_**: This script analyzes participants' message exchanges with the LLM asssitant to estimate the timing of first consultation, and how consultations are distributed across early, middle, and late stages of writing.
+- **_behaviorPostConsultation.py_**: This script analyzes how participants' writing changes before and after each consultation, it saves participant-level summary file and an event-level file that captures how much text was added, deleted, or edited before and after consultation.
+- **_literalLLMLanguageIncorporation.py_**: This script estimates dirct incorporation of LLM-generated language by identifying words and longest phrases that appear in the final submitted text, only if they appear in one of the LLM's message before they appeared in the participant's text editor text.
+- **_IndirectLLMLanguageIncorporation.py_**: This scripts estimates indirect incorporation of LLM's language by calculating the similarity between the participant's final submitted text and LLM's responses, according to a customizable similarity threshold.
 
 That's it! Please feel free to contact me atil@campus.technion.ac.il or atilxmansour@gmail.com for any questions.
