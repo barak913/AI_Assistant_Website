@@ -19,8 +19,8 @@ The README file offers a step-by-step instructions that are divided into four ma
    1. [Local testing](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-31-local-testing)
    2. [Deploying the web application](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-32-deploying-the-web-application)
    3. [Downloading the submissions](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#download-your-submissions)
-   4. [Getting to know your data](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#getting-to-know-your-data)
-4. [Data Cleaning](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-4-data-cleaning)
+   4. [Getting to know your data](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-34-getting-to-know-your-data)
+4. [Data Cleaning or Analysis Codes](https://github.com/atilmansour/AI_Assistant_Website?tab=readme-ov-file#step-4-data-cleaning)
 
 # <code>_Step 1: Installation and Local Setup_</code>
 
@@ -395,7 +395,7 @@ In this section, we provide a table summarising the parameters the data includes
 | messages                    | Time-stamped (ms since page load) messages between users and the LLM assistant.    | Sender has two options: chatbot and user, depending on the sender of the message, including present messages. Example: {t_ms: "450", "text": "message content", "sender": "LLMAssistant"}. |
 | Editor                      | Time-stamped texts produced by participants (ms since page load)                   | The last snapshot contains the final submitted text. Snapshots update after each insertion or deletion. Example: {t_ms: "8709", "text": <p>I am writing</p>}.                              |
 
-# <code>_Step 4: Data Cleaning._</code>
+# <code>_Step 4: Data Analysis Codes_</code>
 
 The following code is written in python, in case you do not have python installed, please install it from [the official Python page](https://www.python.org/downloads/).
 
