@@ -1,0 +1,7 @@
+participant_id,source_file,session_duration_min,total_consultations,first_consultation_sec,consultations_per_minute,early_consultations,middle_consultations,late_consultations,time_to_first_consultation_from_first_edit_sec,time_to_first_consultation_from_chat_open_sec,has_messages_field,has_chatEvents_field,has_editor_field
+AVLA3MS0U,AVLA3MS0U.txt,3.0683,3,19.392,0.9777,1,1,1,17.047,,True,False,True
+OCBP90JA,OCBP90JA.txt,3.7702,10,19.491,2.6524,2,3,5,,,True,False,False
+OLRZ1ESC,OLRZ1ESC.txt,3.079,0,,0.0,0,0,0,,,False,False,True
+PI3HHQXB,PI3HHQXB.txt,4.2002,2,29.357,0.4762,1,1,0,26.015,19.472,True,True,True
+PINHWMKB,PINHWMKB.txt,3.1215,2,25.507,0.6407,1,0,1,17.114,8.418,True,True,True
+TLU6DW5O,TLU6DW5O.txt,3.4328,3,55.433,0.8739,1,0,2,49.033,35.37,True,True,True

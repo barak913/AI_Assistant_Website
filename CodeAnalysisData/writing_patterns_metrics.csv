@@ -1,0 +1,6 @@
+source_file,participant_id,has_messages,has_chat_events,message_count,chat_event_count,session_end_ms,session_duration_min,pause_threshold_ms,first_editor_t_ms,last_editor_t_ms,editor_duration_min,initial_word_count,final_word_count,total_words_added,net_words_added,words_added_per_minute,net_words_per_minute,pause_count,pause_frequency_per_minute,mean_pause_duration_sec,median_pause_duration_sec,max_pause_duration_sec,burst_count,mean_burst_duration_sec,mean_burst_words_added,max_burst_words_added
+AVLA3MS0U.txt,AVLA3MS0U,True,False,8,0,184099,3.0683,2000,2345,184099,3.0292,1,81,83,80,27.3997,26.4093,9,2.9332,10.3887,2.6,34.647,10,8.8256,7.5,28
+OLRZ1ESC.txt,OLRZ1ESC,False,False,0,0,184738,3.079,2000,3673,184738,3.0177,0,72,75,72,24.853,23.8588,9,2.9231,12.3839,3.528,65.236,10,6.961,6.7,27
+PI3HHQXB.txt,PI3HHQXB,True,True,6,5,252015,4.2002,2000,3342,252015,4.1445,1,72,71,71,17.1309,17.1309,9,2.1427,21.46,6.396,113.755,10,5.5533,6.1,24
+PINHWMKB.txt,PINHWMKB,True,True,6,6,187288,3.1215,2000,8393,187288,2.9816,1,63,63,62,21.1297,20.7943,10,3.2036,11.5081,3.126,56.261,11,5.8013,5,17
+TLU6DW5O.txt,TLU6DW5O,True,True,8,2,205967,3.4328,2000,6400,205967,3.3261,1,89,90,88,27.0586,26.4573,11,3.2044,9.9528,2.667,45.165,12,7.5072,6.6667,21

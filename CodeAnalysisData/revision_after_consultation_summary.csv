@@ -1,0 +1,7 @@
+participant_id,source_file,number_of_consultations,mean_words_written_in_pre_window,mean_words_written_in_post_window,mean_words_deleted_in_pre_window,mean_words_deleted_in_post_window,mean_words_edited_in_pre_window,mean_words_edited_in_post_window,mean_net_word_change_in_pre_window,mean_net_word_change_in_post_window,has_messages_field,has_editor_field
+AVLA3MS0U,AVLA3MS0U.txt,3,15.6667,5.0,0.0,0.0,0.0,4.0,15.6667,8.6667,True,True
+OCBP90JA,OCBP90JA.txt,10,,,,,,,,,True,False
+OLRZ1ESC,OLRZ1ESC.txt,0,,,,,,,,,False,True
+PI3HHQXB,PI3HHQXB.txt,2,13.0,10.5,0.0,0.0,0.0,0.0,13.5,11.0,True,True
+PINHWMKB,PINHWMKB.txt,2,11.5,6.0,0.0,0.0,0.0,0.0,11.5,6.5,True,True
+TLU6DW5O,TLU6DW5O.txt,3,9.3333,8.3333,0.0,0.0,0.0,0.0,9.3333,8.3333,True,True

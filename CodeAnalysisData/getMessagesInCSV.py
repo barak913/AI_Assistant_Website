@@ -76,4 +76,4 @@ if __name__ == "__main__":
     # In our example, we want to import and save to the same folder, but you can have seperate folders for the .txts and .csvs:
     #   input_dir  = "s3_downloaded_logs"
     #   output_dir = "messages_csv"
-    logs_to_message_csvs(input_dir="exampleDataFiles", output_dir="exampleDataFiles")
+    logs_to_message_csvs(input_dir="exampleDataFiles", output_dir="exampleDataFiles/messagesCSVs")

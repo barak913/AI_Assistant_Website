@@ -1,0 +1,21 @@
+participant_id,source_file,consultation_number,consultation_timestamp_ms,consultation_timestamp_sec,user_message_text,task_stage,relative_task_position,words_written_so_far,final_word_count,proportion_of_final_text_written,time_since_first_edit_sec,time_since_first_chat_open_sec
+AVLA3MS0U,AVLA3MS0U.txt,1,19392,19.392,can u write more,early,0.1053,14,81,0.1728,17.047,
+AVLA3MS0U,AVLA3MS0U.txt,2,105175,105.175,okay can u make just 3 suggestions,middle,0.5713,62,81,0.7654,102.83,
+AVLA3MS0U,AVLA3MS0U.txt,3,156664,156.664,thank you!,late,0.851,80,81,0.9877,154.319,
+OCBP90JA,OCBP90JA.txt,1,19491,19.491,"hey, we are supposed to write together about spring",early,0.0862,0,0,,,
+OCBP90JA,OCBP90JA.txt,2,44490,44.49,"poetry, but i don't want u to write alone ok?",early,0.1967,0,0,,,
+OCBP90JA,OCBP90JA.txt,3,81930,81.93,"I have a lover who, Will turn rain into a rose for you",middle,0.3622,0,0,,,
+OCBP90JA,OCBP90JA.txt,4,108290,108.29,"my heart is red, my soul is well fed",middle,0.4787,0,0,,,
+OCBP90JA,OCBP90JA.txt,5,119872,119.872,hey ur turn i wrote this,middle,0.5299,0,0,,,
+OCBP90JA,OCBP90JA.txt,6,154017,154.017,"my ink runs down my cheek, my papers have too much to speak",late,0.6809,0,0,,,
+OCBP90JA,OCBP90JA.txt,7,163290,163.29,i think its good no?,late,0.7219,0,0,,,
+OCBP90JA,OCBP90JA.txt,8,180835,180.835,"i need to wirte more, so add?",late,0.7994,0,0,,,
+OCBP90JA,OCBP90JA.txt,9,190377,190.377,nooo not that much,late,0.8416,0,0,,,
+OCBP90JA,OCBP90JA.txt,10,222076,222.076,"a lemon tree, makes me feel free",late,0.9817,0,0,,,
+PI3HHQXB,PI3HHQXB.txt,1,29357,29.357,"hi, can you give me one idea only on what to write about?",early,0.1165,6,72,0.0833,26.015,19.472
+PI3HHQXB,PI3HHQXB.txt,2,125355,125.355,thank you!,middle,0.4974,64,72,0.8889,122.013,115.47
+PINHWMKB,PINHWMKB.txt,1,25507,25.507,okay can u help me write about the weather,early,0.1362,9,63,0.1429,17.114,8.418
+PINHWMKB,PINHWMKB.txt,2,141418,141.418,thank you!,late,0.7551,63,63,1.0,133.025,124.329
+TLU6DW5O,TLU6DW5O.txt,1,55433,55.433,"oh hi, I want to write about my love for nature, can u make 2 suggestions so i can write",early,0.2691,11,89,0.1236,49.033,35.37
+TLU6DW5O,TLU6DW5O.txt,2,154673,154.673,"thank you, what would u add",late,0.751,75,89,0.8427,148.273,134.61
+TLU6DW5O,TLU6DW5O.txt,3,168590,168.59,can u add a sentence to my writing,late,0.8185,75,89,0.8427,162.19,148.527
