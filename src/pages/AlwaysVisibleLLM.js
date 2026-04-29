@@ -16,7 +16,7 @@ import "../App.css";
 const AlwaysVisibleLLM = () => {
   // CONFIG YOU WILL EDIT:
   // Choose provider: "chatgpt" | "claude" | "gemini"
-  const LLMProvider = "chatgpt";
+  const LLMProvider = "claude";
 
   //CONFIG YOU WILL EDIT:
   //Here, you can give the LLM Assistant background informaiton about the task,
